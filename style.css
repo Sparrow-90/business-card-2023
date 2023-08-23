@@ -12,6 +12,7 @@ body{
     background: #F8F8F8;
     border-radius: 16px;
     padding: 32px;
+    flex-basis: 616px;
 }
 
 .card__name{
@@ -19,6 +20,20 @@ body{
     font-weight: 400;
     margin: 0;
 }
+
+.card__content{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card__info{
+    flex-basis: 380px;
+    flex-grow: 1;
+}
+
 .card__description{
     line-height: 1.375;
     margin: 0;
